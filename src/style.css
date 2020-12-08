@@ -1,0 +1,143 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  padding: 1.5rem;
+  background: #f1efee;
+  line-height: 2;
+}
+
+.exam {
+  margin-bottom: 10rem;
+}
+
+.dot {
+  color: #62b2e8;
+  height: 0.2rem;
+  width: 0.2rem;
+  position: relative;
+}
+
+.exam--info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.exam--time {
+  background-color: #62b2e8;
+  padding: 0 1.5rem 0 1.5rem;
+  border-radius: 5px;
+}
+
+.section--navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  transition: 0.5s;
+}
+
+.section--navigation a {
+  text-decoration: none;
+
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.section {
+  border: none;
+  padding: 1rem;
+  background-color: grey;
+  border-radius: 100px;
+  cursor: pointer;
+  width: 20rem;
+}
+
+.active {
+  background-color: blue;
+}
+
+.section2 {
+  margin-left: -4rem;
+}
+
+.section3 {
+  margin-left: -4rem;
+}
+
+.section4 {
+  margin-left: -4rem;
+}
+
+.question--text {
+  margin-right: auto;
+  text-align: center;
+}
+
+.option {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
+
+.option--a {
+  background-color: red;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  text-align: center;
+  margin-right: 2rem;
+}
+
+.option--description {
+  background-color: skyblue;
+  padding-left: 2rem;
+  flex-basis: 100%;
+}
+
+.selected {
+  background-color: green;
+}
+
+.questions {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.queno {
+  width: 3rem;
+  height: 3rem;
+  background-color: red;
+  margin: 0.5rem;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
