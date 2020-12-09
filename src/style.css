@@ -107,7 +107,7 @@ li a {
 }
 
 .option--a {
-  background-color: red;
+  background-color: orange;
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
@@ -135,7 +135,7 @@ li a {
 .queno {
   width: 3rem;
   height: 3rem;
-  background-color: red;
+  background-color: blueviolet;
   margin: 0.5rem;
   text-align: center;
   border-radius: 50%;
